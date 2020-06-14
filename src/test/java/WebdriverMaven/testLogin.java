@@ -27,6 +27,9 @@ public class testLogin {
 		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
 		driver.findElement(By.id("identifierId")).sendKeys("sakshilumba@gmail.com");
 		driver.findElement(By.id("identifierNext")).click();
+		driver.findElement(By.name("password")).sendKeys("asdf");
+		driver.findElement(By.id("passwordNext")).click();
+		
 		}
 	
 		
