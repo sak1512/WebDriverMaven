@@ -27,8 +27,8 @@ public class testLogin {
 		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
 		driver.findElement(By.id("identifierId")).sendKeys("sakshilumba@gmail.com");
 		driver.findElement(By.id("identifierNext")).click();
-		driver.findElement(By.name("password")).sendKeys("asdf");
-		driver.findElement(By.id("passwordNext")).click();
+		//driver.findElement(By.name("password")).sendKeys("asdf");
+		//driver.findElement(By.id("passwordNext")).click();
 		
 		}
 	
@@ -36,7 +36,7 @@ public class testLogin {
 	@AfterSuite
 	public void teardown() {
 		/*
-		 * checking the changes in Jenkins
+		 * checking the changes in Jenkins latest
 		 */
 		
 		driver.quit();
