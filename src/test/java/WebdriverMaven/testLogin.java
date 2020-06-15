@@ -36,7 +36,7 @@ public class testLogin {
 	@AfterSuite
 	public void teardown() {
 		/*
-		 * checking the changes in Jenkins latest1
+		 * checking the changes in Jenkins latest2
 		 */
 		
 		driver.quit();
